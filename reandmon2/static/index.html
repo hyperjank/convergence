@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>USB-Monitor</title>
+  <style>
+    body  { margin: 0; background: #000; overflow: hidden; }
+    video { display:block; width:100vw; height:100vh; object-fit:contain; }
+    #msg  { position:fixed; top:12px; left:12px; color:#fff; font-family:sans-serif; }
+    #stats {
+      display:none;
+      position:fixed;
+      right:12px;
+      bottom:12px;
+      max-width:calc(100vw - 24px);
+      padding:8px 10px;
+      color:#dfffea;
+      background:rgba(0, 0, 0, 0.72);
+      border:1px solid rgba(180, 255, 210, 0.45);
+      font:12px/1.35 monospace;
+      white-space:pre;
+      pointer-events:none;
+    }
+    #stats.visible { display:block; }
+  </style>
+</head>
+<body>
+  <div id="msg"></div>
+  <div id="stats"></div>
+  <video id="v" autoplay playsinline webkit-playsinline muted></video>
+  <script src="client.js"></script>
+</body>
+</html>

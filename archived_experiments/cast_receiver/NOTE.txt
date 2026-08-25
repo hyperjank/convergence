@@ -1,0 +1,4 @@
+This directory contains archived custom Chromecast receiver code.
+
+It is intentionally not wired into runtime code.
+Current convergence Chromecast mode uses DashCast via cast_manager.py.

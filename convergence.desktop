@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Convergence
+Comment=Manage Android, desktop streaming, and Chromecast targets
+Exec=/home/rkl/playground/convergence/run-convergence.sh
+Path=/home/rkl/playground/convergence
+Icon=video-display
+Terminal=false
+Categories=Utility;
+StartupNotify=false
