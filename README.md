@@ -5,9 +5,7 @@
 - launching Android apps into virtual displays via `scrcpy --new-display`
 - streaming your Linux desktop to a browser (WebRTC) and optionally casting that URL to Chromecast
 
-The recovered PyQt tray frontend is the primary interface. It now uses the newer
-frontend-neutral controller and backend that were developed alongside the CLI and
-optional Textual TUI.
+The PyQt tray frontend is the primary interface. 
 
 ## What it does
 
